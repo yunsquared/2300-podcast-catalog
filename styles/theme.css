@@ -1,0 +1,173 @@
+body {
+    /* background-color: #fcfabd; */
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    background-color: white;
+    margin: 0px;
+  }
+
+h3 {
+  padding-left: 10px;
+}
+
+#header {
+    background-color: yellowgreen;
+    padding: 5px 15px 30px 15px;
+    margin: 0px;
+  }
+
+
+footer {
+  background-color: yellowgreen;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+main {
+    background-color: white;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px 10px;
+  }
+
+.nav ul li{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 70px;
+    height: 20px;
+    padding: 12px 14px;
+}
+
+li {
+    display: inline;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  a:link {
+    color: blue;
+  }
+  a:hover {
+    color: lightseagreen;
+  }
+  a:visited {
+    color: darkorange;
+  }
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+th {
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+td {
+  height: 30px;
+  text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+  padding: 15px;
+}
+
+tr:hover {
+  background-color: lightgray;
+}
+
+/*user form*/
+.error_msg {
+    display: inline;
+    color: #f18018;
+    padding-left: 123px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+/* Adding spaces between elements */
+#add_form div {
+    margin-top: 10px;
+  }
+
+#search_form div {
+    margin-top: 10px;
+  }
+
+#search_form .input-button {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+
+#search-button {
+    /* margin-bottom: 20px; */
+    width: 100px !important;
+    height: 25px !important;
+}
+
+#search_form input {
+    width: 200px;
+    margin-left: 10px;
+    height: 20px;
+  }
+
+
+/* Aligning labels for best user legibility */
+#add_form label {
+    width: 150px;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+#add_form input {
+    width: 500px;
+    margin-left: 10px;
+  }
+#add_form .input-pair {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+#add_form select {
+    width: 300px;
+    margin-left: 10px;
+  }
+
+
+button:hover {
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+#submit-button {
+  width: 100px !important;
+  margin-left: 570px !important;
+
+}
