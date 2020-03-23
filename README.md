@@ -1,13 +1,4 @@
-# Project 2
+# Podcast Catalog for State of the Pod Recommendations Database 
 
-See the course web page for the project's requirements.
+Designed to help users find new podcasts to listen to and search by host, topic, and show name 
 
-# Submission Instructions
-
-See the respective **submit-_milestone_.md** file for each submission.
-
-| Submission  | Instructions                       |
-| ----------- | ---------------------------------- |
-| Milestone 1 | [submit-m1.md](submit-m1.md)   |
-| Milestone 2 | [submit-m2.md](submit-m2.md)   |
-| Final       | [submit-FINAL.md](submit-FINAL.md) |
